@@ -15,7 +15,9 @@
    screen -S PipeNode
 
 2. **Run this command**:
+```bash
 bash <(curl -s https://raw.githubusercontent.com/mefury/Pipe-Network-Node-Setup-Script/main/pipenode.sh)
+```
 
 3. **After the installation is complete exit the screen by pressing Ctrl + A + B**
 
