@@ -14,7 +14,7 @@
    ```bash
    screen -S PipeNode
 
-2. **Run this command**:
+2. **Run this command to Install Pipe Node**:
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mefury/Pipe-Network-Node-Setup-Script/main/pipenode.sh)
 ```
