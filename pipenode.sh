@@ -5,6 +5,13 @@
 # Created By: MEFURY
 # ==================================================
 
+# Display the credit section
+echo "=================================================="
+echo "Title: Pipe Network Node Setup Script"
+echo "Created By: MEFURY"
+echo "=================================================="
+echo ""
+
 # Function to display the initial setup message
 show_setup_message() {
     echo "Setting up Pipe Network node for you..."
