@@ -7,6 +7,11 @@
 - **Internet**: 24/7 connectivity required
 
 ---
+PIPE DEVNET2
+Official Guide
+
+Dashboard
+https://dashboard.pipenetwork.com/node-lookup
 
 ## Installation Guide
 
@@ -33,7 +38,7 @@ mkdir download_cache
 
 5. **The registration process will ask for a referral code, You have to enter one(This if my referral code):**
 ```bash
-347b00cf557577f
+e106dc8e729c23d8
 ```
 
 6. **After the registration is complete you can return to shell by pressing Ctrl + C**
