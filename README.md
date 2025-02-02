@@ -10,17 +10,45 @@
 
 ## Installation Guide
 
-1. **Create a New Screen Session**:
-   ```bash
-   screen -S PipeNode
+1. **Download Pipe Node Executable by running**:
 
-2. **Run this command to Install Pipe Node**:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/mefury/Pipe-Network-Node-Setup-Script/main/pipenode.sh)
+curl -L -o pop "https://dl.pipecdn.app/v0.2.2/pop"
 ```
 
-3. **After the installation is complete exit the screen by pressing Ctrl + A + B**
-
-4. **To check Node Status**:
+2. **Execute the Pipe Node executable by running**:
 ```bash
+chmod +x pop
+```
+
+3. **Create Pipe node cache folder by running:**
+```bash
+mkdir download_cache
+```
+
+4. **Start the Pipe and Register by running**:
+```bash
+./pop
+```
+
+5. **The registration process will ask for a referral code, You have to enter one(This if my referral code):**
+```bash
+347b00cf557577f
+```
+
+6. **After the registration is complete you can return to shell by pressing Ctrl + C**
+
+7. **Add your Solana address to your Pipe node by running**:
+```bash
+./pop --pubKey YourSolanaAddress
+```
+8. **Important Commands:**
+```bash
+##Fetch node's usage and reputation from the upstream API and print status
 ./pop --status
+
+##To check points
+./pop  --points
+
+##To start the Node just run
+./pop
